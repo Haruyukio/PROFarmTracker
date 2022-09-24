@@ -160,7 +160,7 @@ def StartCount():
             min_val, max_val, min_loc, max_loc = cv2.minMaxLoc(result)
         # print(max_val) #If found will be 99%
 
-            if(max_val2<0.90):
+            if(max_val2<0.80):
                 endit()
                 continue
             if(Encounter !=""):
